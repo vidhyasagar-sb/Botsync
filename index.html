@@ -63,16 +63,16 @@
             </h2>
           </div>
           <div class="resultsTitle">
-            <div>
-              <h1><span><</span>3</h1>
+            <div class="resultsTitleWrapper">
+              <h2><span class="resultCharacter">&#60</span>3</h2>
               <p>Years of ROI</p>
             </div>
-            <div>
-              <h1>2-3<span> x</span></h1>
+            <div class="resultsTitleWrapper">
+              <h2>2-3<span class="resultCharacter"> x</span></h2>
               <p>production increase</p>
             </div>
-            <div>
-              <h1><span class="resultsUpto">upto </span>70<span>%</span></h1>
+            <div class="resultsTitleWrapper">
+              <h2><span class="resultsUpto">upto </span>70<span class="resultCharacter">%</span></h2>
               <p>reduction on manual dependency</p>
             </div>
           </div>
@@ -81,7 +81,7 @@
     </section>
     <section class="aspects">
       <div class="container">
-        <h2>
+        <h2 class="commonHeading">
           Deploy MAG autonomous mobile robots <span>(AMRs)</span> to automate
           material handling operations with flexibility to change
         </h2>
@@ -134,7 +134,7 @@
       </div>
     </section>
     <section class="automation">
-      <h2>Enabling Automation, Empowering Operators</h2>
+      <h2 class="commonHeading">Enabling Automation, Empowering Operators</h2>
       <p>
         <span>syncOS</span> is a system of integrated building blocks of
         automation which allows operators to easily change configuration with
@@ -148,7 +148,9 @@
     <section class="products">
       <div class="container">
         <div class="productsHead">
-          <h2>Built for any type of intralogistics operations</h2>
+          <h2 class="commonHeading">
+            Built for any type of intralogistics operations
+          </h2>
           <p>
             Our MAG autonomous robots can safely transport goods up to
             <span>1500 kg</span>
@@ -161,7 +163,7 @@
         <div class="productCard active">
           <img src="./assets/images/palletLifter.png" alt="Pallet lifter" />
           <div class="productDescription">
-            <h2>Pallet Lifter</h2>
+            <h2 class="commonHeading">Pallet Lifter</h2>
             <p>
               Automate movement of pallets of up to 1000 kg in warehouses or
               factories
@@ -171,7 +173,7 @@
         <div class="productCard">
           <img src="./assets/images/trollyLifter.png" alt="Trolly lifter" />
           <div class="productDescription">
-            <h2>Trolly Lifter</h2>
+            <h2 class="commonHeading">Trolly Lifter</h2>
             <p>
               Trolleys/Cages/Shelves movement automation for consolidated boxes
               and bins with MAG300 AMR
@@ -181,7 +183,7 @@
         <div class="productCard">
           <img src="./assets/images/conveyor.png" alt="Conveyor" />
           <div class="productDescription">
-            <h2>Conveyor</h2>
+            <h2 class="commonHeading">Conveyor</h2>
             <p>
               Automatic loading and unloading of pallets or boxes with MAG
               Conveyor module
@@ -191,7 +193,7 @@
         <div class="productCard">
           <img src="./assets/images/trollyTugger.png" alt="Trolly tugger" />
           <div class="productDescription">
-            <h2>Trolly Tugger</h2>
+            <h2 class="commonHeading">Trolly Tugger</h2>
             <p>
               Deploy MAG Tugger for automation of material movement on existing
               trolleys in factory.
@@ -203,7 +205,9 @@
     <section class="factory">
       <div class="factoryContainer">
         <div class="factoryHeading">
-          <h2>Simple Transition to Intralogistics Automation</h2>
+          <h2 class="commonHeading">
+            Simple Transition to Intralogistics Automation
+          </h2>
           <p>
             Our automation solution allows companies to deploy MAG autonomous
             mobile robots at existing factories and warehouses within few days
@@ -216,27 +220,21 @@
       </div>
     </section>
     <section class="featured">
-      <h2>Trusted by industry leaders</h2>
+      <h2 class="commonHeading">Trusted by industry leaders</h2>
       <div class="container">
         <div class="featuredBrands">
-          <div class="featuredBrandsWrapper">
-            <img src="./assets/images/bollore.svg" alt="Bollore logo" />
-          </div>
-          <div class="featuredBrandsWrapper">
-            <img src="./assets/images/sanmina.svg" alt="Sanmina logo" />
-          </div>
-          <div class="featuredBrandsWrapper">
-            <img src="./assets/images/panasonic.svg" alt="Panasonic" />
-          </div>
-          <div class="featuredBrandsWrapper">
-            <img src="./assets/images/norgren.svg" alt="Norgren" />
-          </div>
-          <div class="featuredBrandsWrapper">
-            <img src="./assets/images/schlumberger.svg" alt="schlumberger" />
-          </div>
+          <img src="./assets/images/bollore.svg" alt="Bollore logo" />
+
+          <img src="./assets/images/sanmina.svg" alt="Sanmina logo" />
+
+          <img src="./assets/images/panasonic.svg" alt="Panasonic" />
+
+          <img src="./assets/images/norgren.svg" alt="Norgren" />
+
+          <img src="./assets/images/schlumberger.svg" alt="schlumberger" />
         </div>
         <hr />
-        <h2>Featured in</h2>
+        <h2 class="commonHeading">Featured in</h2>
         <div class="featuredIn">
           <div class="featuredInDetails">
             <img
@@ -318,7 +316,7 @@
     </section>
     <footer>
       <div class="container">
-        <div class="footerTop">
+        <div class="footerDemo">
           <div class="contactInfo">
             <h2>Schedule a live demo now</h2>
             <p>
@@ -329,7 +327,7 @@
             <p class="contactInfoDetail">
               <span
                 ><img src="./assets/images/email.svg" alt="email logo" /></span
-              >sales@botsync.co
+              ><a href="mailto:sales@botsync.co">sales@botsync.co</a>
             </p>
             <p class="contactInfoDetail">
               <span
@@ -337,7 +335,7 @@
               >+65 8590 4386
             </p>
           </div>
-          <form id="userform" action="submit">
+          <form id="userform" action="/">
             <div class="inputsContainer">
               <div class="inputLableContainer">
                 <label for="name">Full Name*</label>
@@ -385,12 +383,12 @@
               ></textarea>
             </div>
             <div class="buttonWrapper">
-              <button class="commonButton">Request a Demo</button>
+              <button type="submit" class="commonButton">Request a Demo</button>
             </div>
           </form>
         </div>
         <hr />
-        <div class="footerBottom">
+        <div class="footerSummary">
           <div class="social">
             <a class="botsyncLogo" href="#">
               <img src="./assets/images/logo.svg" alt="Botsync logo" />
@@ -410,7 +408,7 @@
           </div>
           <div class="quicklinks">
             <h3>Quick Links</h3>
-            <ul class="quicklinksMenu">
+            <ul>
               <li><a href="#">MAG</a></li>
               <li><a href="#">Volta</a></li>
               <li><a href="#">Copernicus</a></li>
@@ -421,100 +419,102 @@
           </div>
           <div class="location">
             <h3>Contact Info</h3>
-            <div class="locationAddressWrapper singaporeAddress">
-              <div class="locationAddress">
-                <div>
-                  <img src="./assets/images/balloon.svg" alt="balloon icon" />
-                </div>
-                <div>
-                  <p>
-                    79 Joo Koon Circle Level 2 Wong Fong Building Singapore
-                    629107
-                  </p>
-                  <a href="#" class="locationAddressDirection">
-                    <span>
-                      <img
-                        src="./assets/images/directions.svg"
-                        alt="direction icon"
-                    /></span>
-                    Get Directions
-                  </a>
-                </div>
+            <div class="locationAddress singaporeAddress">
+              <div>
+                <img src="./assets/images/balloon.svg" alt="balloon icon" />
+              </div>
+              <div>
+                <p>
+                  79 Joo Koon Circle Level 2 Wong Fong Building Singapore 629107
+                </p>
+                <a href="#" class="locationAddressDirection">
+                  <span>
+                    <img
+                      src="./assets/images/directions.svg"
+                      alt="direction icon"
+                  /></span>
+                  Get Directions
+                </a>
               </div>
             </div>
-            <div class="locationAddressWrapper indiaAddress">
-              <div class="locationAddress">
-                <div>
-                  <img src="./assets/images/balloon.svg" alt="balloon icon" />
-                </div>
-                <div>
-                  <p>
-                    Plot No. 10C, Kiadb Industrial Area, Electronic City Phase
-                    2, Hosur Road, Bangalore 560100 India
-                  </p>
-                  <a href="#" class="locationAddressDirection">
-                    <span>
-                      <img
-                        src="./assets/images/directions.svg"
-                        alt="direction icon"
-                    /></span>
-                    Get Directions
-                  </a>
-                </div>
+
+            <div class="locationAddress indiaAddress">
+              <div>
+                <img src="./assets/images/balloon.svg" alt="balloon icon" />
+              </div>
+              <div>
+                <p>
+                  Plot No. 10C, Kiadb Industrial Area, Electronic City Phase 2,
+                  Hosur Road, Bangalore 560100 India
+                </p>
+                <a href="#" class="locationAddressDirection">
+                  <span>
+                    <img
+                      src="./assets/images/directions.svg"
+                      alt="direction icon"
+                  /></span>
+                  Get Directions
+                </a>
               </div>
             </div>
           </div>
-          <div class="latestNews">
-            <h3>Latest News</h3>
-            <div class="latestNewsArticle">
-              <img
-                src="./assets/images/newsArticleLogo1.svg"
-                alt="flexibility news"
-              />
-              <div>
-                <a href="#">
-                  We believe in #flexibility so that our customers can remain
-                  agile!
-                </a>
-                <p>5 days ago</p>
+          <ul class="latestNews">
+            <li><h3>Latest News</h3></li>
+            <li>
+              <div class="latestNewsArticle">
+                <img
+                  src="./assets/images/newsArticleLogo1.svg"
+                  alt="flexibility news"
+                />
+                <div>
+                  <a href="#">
+                    We believe in #flexibility so that our customers can remain
+                    agile!
+                  </a>
+                  <p>5 days ago</p>
+                </div>
               </div>
-            </div>
-            <div class="latestNewsArticle">
-              <img
-                src="./assets/images/newsArticleLogo2.svg"
-                alt="automation news"
-              />
-              <div>
-                <a href="#">
-                  Find more about our industrial automation solution and MAG
-                  AMRs
-                </a>
-                <p>MAR, 2021</p>
+            </li>
+            <li>
+              <div class="latestNewsArticle">
+                <img
+                  src="./assets/images/newsArticleLogo2.svg"
+                  alt="automation news"
+                />
+                <div>
+                  <a href="#">
+                    Find more about our industrial automation solution and MAG
+                    AMRs
+                  </a>
+                  <p>MAR, 2021</p>
+                </div>
               </div>
-            </div>
-            <div class="latestNewsArticle">
-              <img
-                src="./assets/images/newsArticleLogo3.svg"
-                alt="robot fleet news"
-              />
-              <div>
-                <a href="#">
-                  Growing our MAG #AMR fleet to introduce a first-of-a-kind
-                  flexible
-                </a>
-                <p>MAR, 2021</p>
+            </li>
+            <li>
+              <div class="latestNewsArticle">
+                <img
+                  src="./assets/images/newsArticleLogo3.svg"
+                  alt="robot fleet news"
+                />
+                <div>
+                  <a href="#">
+                    Growing our MAG #AMR fleet to introduce a first-of-a-kind
+                    flexible
+                  </a>
+                  <p>MAR, 2021</p>
+                </div>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
         <hr />
-        <div class="footerEnd">
+        <div class="footerCopyright">
           <p class="copyright">Copyright © 2022. All rights reserved.</p>
-          <div class="terms">
-            <a href="#">Privacy Policy </a>
-            <span>|</span>
-            <a href="#"> Terms of Service</a>
-          </div>
+          <ul class="terms">
+            <li><a href="#">Privacy Policy </a></li>
+            <li><span>|</span></li>
+            <li><a href="#"> Terms of Service</a></li>
+          </ul>
         </div>
       </div>
     </footer>
